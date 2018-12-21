@@ -23,6 +23,7 @@ public class MainActivity extends AppCompatActivity {
 
     TextView showGameLogo;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

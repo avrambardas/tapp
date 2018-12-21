@@ -22,6 +22,7 @@ public class duoActivity extends AppCompatActivity {
     TextView showPointsForDuo;
 
 
+
     TextView showFromWhichButtonOpenedTheAct;
     Intent intent = getIntent();
 

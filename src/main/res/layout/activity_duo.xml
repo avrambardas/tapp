@@ -357,6 +357,7 @@
 
 
 
+
     <Button
         android:id="@+id/duoGameStartButton"
         android:onClick="startDuo"

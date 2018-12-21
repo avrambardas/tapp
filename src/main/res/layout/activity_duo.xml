@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".duoActivity">
+
+
+    <TextView
+        android:id="@+id/whichButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:text=""
+        android:textColor="#ffffff"
+        android:textSize="28dp" />
+
+    <Button
+        android:id="@+id/L1C1"
+        android:layout_width="65dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/L3C1"
+        android:layout_marginTop="160dp"
+        android:textColor="#ffffff"
+        android:onClick="duoTapClicked"
+        android:text="@string/tap0"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/L1C2"
+        android:layout_width="65dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/L1C1"
+        android:layout_toStartOf="@+id/L1C3"
+        android:textColor="#ffffff"
+        android:onClick="duoTapClicked"
+        android:text="@string/tap1"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/L1C3"
+        android:layout_width="65dp"
+        android:layout_height="wrap_content"
+        android:onClick="duoTapClicked"
+        android:layout_alignTop="@+id/L1C1"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ffffff"
+        android:text="@string/tap2"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/L1C4"
+        android:layout_width="65dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/L1C1"
+        android:layout_toEndOf="@+id/L1C3"
+        android:textColor="#ffffff"
+        android:onClick="duoTapClicked"
+        android:text="@string/tap3"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/L1C5"
+        android:layout_width="65dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/L1C1"
+        android:layout_toEndOf="@+id/L1C4"
+        android:textColor="#ffffff"
+        android:onClick="duoTapClicked"
+        android:text="@string/tap4"
+        android:visibility="invisible" />
+
+
+    <Button
+        android:id="@+id/L2C1"
+        android:layout_width="65dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/L1C1"
+        android:layout_toStartOf="@+id/L1C2"
+        android:onClick="duoTapClicked"
+        android:textColor="#ffffff"
+        android:text="@string/tap5"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/L2C2"
+        android:layout_width="65dp"
+        android:layout_height="wrap_content"
+        android:onClick="duoTapClicked"
+        android:layout_alignStart="@+id/L1C2"
+        android:layout_below="@+id/L1C1"
+        android:textColor="#ffffff"
+        android:text="@string/tap6"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/L2C3"
+        android:layout_width="65dp"
+        android:layout_height="wrap_content"
+        android:onClick="duoTapClicked"
+        android:layout_below="@+id/L1C1"
+        android:textColor="#ffffff"
+        android:layout_centerHorizontal="true"
+        android:text="@string/tap7"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/L2C4"
+        android:layout_width="65dp"
+        android:layout_height="wrap_content"
+        android:onClick="duoTapClicked"
+        android:layout_alignStart="@+id/L1C4"
+        android:textColor="#ffffff"
+        android:layout_below="@+id/L1C1"
+        android:text="@string/tap8"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/L2C5"
+        android:layout_width="65dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/L1C1"
+        android:layout_toEndOf="@+id/L1C4"
+        android:textColor="#ffffff"
+        android:onClick="duoTapClicked"
+        android:text="@string/tap9"
+        android:visibility="invisible" />
+
+
+    <Button
+        android:id="@+id/L3C1"
+        android:layout_width="65dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/L2C1"
+        android:textColor="#ffffff"
+        android:layout_toStartOf="@+id/L1C2"
+        android:onClick="duoTapClicked"
+        android:text="@string/tap10"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/L3C2"
+        android:layout_width="65dp"
+        android:layout_height="wrap_content"
+        android:onClick="duoTapClicked"
+        android:layout_alignStart="@+id/L1C2"
+        android:textColor="#ffffff"
+        android:layout_below="@+id/L2C1"
+        android:text="@string/tap11"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/L3C3"
+        android:layout_width="65dp"
+        android:layout_height="wrap_content"
+        android:onClick="duoTapClicked"
+        android:layout_below="@+id/L2C1"
+        android:textColor="#ffffff"
+        android:layout_centerHorizontal="true"
+        android:text="@string/tap12"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/L3C4"
+        android:layout_width="65dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/L1C4"
+        android:layout_below="@+id/L2C1"
+        android:textColor="#ffffff"
+        android:onClick="duoTapClicked"
+        android:text="@string/tap13"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/L3C5"
+        android:layout_width="65dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/L2C1"
+        android:layout_toEndOf="@+id/L1C4"
+        android:textColor="#ffffff"
+        android:onClick="duoTapClicked"
+        android:text="@string/tap14"
+        android:visibility="invisible" />
+
+
+    <Button
+        android:id="@+id/L4C1"
+        android:layout_width="65dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/L3C1"
+        android:layout_toStartOf="@+id/L1C2"
+        android:textColor="#ffffff"
+        android:onClick="duoTapClicked"
+        android:text="@string/tap15"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/L4C2"
+        android:layout_width="65dp"
+        android:layout_height="wrap_content"
+        android:onClick="duoTapClicked"
+        android:layout_alignStart="@+id/L1C2"
+        android:textColor="#ffffff"
+        android:layout_below="@+id/L3C1"
+        android:text="@string/tap16"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/L4C3"
+        android:layout_width="65dp"
+        android:layout_height="wrap_content"
+        android:onClick="duoTapClicked"
+        android:layout_below="@+id/L3C1"
+        android:textColor="#ffffff"
+        android:layout_centerHorizontal="true"
+        android:text="@string/tap17"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/L4C4"
+        android:layout_width="65dp"
+        android:layout_height="wrap_content"
+        android:onClick="duoTapClicked"
+        android:layout_alignStart="@+id/L1C4"
+        android:textColor="#ffffff"
+        android:layout_below="@+id/L3C1"
+        android:text="@string/tap18"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/L4C5"
+        android:layout_width="65dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/L3C1"
+        android:layout_toEndOf="@+id/L1C4"
+        android:textColor="#ffffff"
+        android:onClick="duoTapClicked"
+        android:text="@string/tap19"
+        android:visibility="invisible" />
+
+
+    <Button
+        android:id="@+id/L5C1"
+        android:layout_width="65dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/L4C1"
+        android:layout_toStartOf="@+id/L1C2"
+        android:textColor="#ffffff"
+        android:onClick="duoTapClicked"
+        android:text="@string/tap20"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/L5C2"
+        android:layout_width="65dp"
+        android:layout_height="wrap_content"
+        android:onClick="duoTapClicked"
+        android:layout_alignStart="@+id/L1C2"
+        android:textColor="#ffffff"
+        android:layout_below="@+id/L4C1"
+        android:text="@string/tap21"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/L5C3"
+        android:layout_width="65dp"
+        android:layout_height="wrap_content"
+        android:onClick="duoTapClicked"
+        android:layout_below="@+id/L4C1"
+        android:textColor="#ffffff"
+        android:layout_centerHorizontal="true"
+        android:text="@string/tap22"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/L5C4"
+        android:layout_width="65dp"
+        android:layout_height="wrap_content"
+        android:onClick="duoTapClicked"
+        android:layout_alignStart="@+id/L1C4"
+        android:textColor="#ffffff"
+        android:layout_below="@+id/L4C1"
+        android:text="@string/tap23"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/L5C5"
+        android:layout_width="65dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/L4C1"
+        android:layout_toEndOf="@+id/L1C4"
+        android:textColor="#ffffff"
+        android:onClick="duoTapClicked"
+        android:text="@string/tap24"
+        android:visibility="invisible" />
+
+
+    <Button
+        android:id="@+id/L6C1"
+        android:layout_width="65dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/L5C1"
+        android:layout_toStartOf="@+id/L1C2"
+        android:textColor="#ffffff"
+        android:onClick="duoTapClicked"
+        android:text="@string/tap25"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/L6C2"
+        android:layout_width="65dp"
+        android:layout_height="wrap_content"
+        android:onClick="duoTapClicked"
+        android:layout_alignStart="@+id/L1C2"
+        android:textColor="#ffffff"
+        android:layout_below="@+id/L5C1"
+        android:text="@string/tap26"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/L6C3"
+        android:layout_width="65dp"
+        android:layout_height="wrap_content"
+        android:onClick="duoTapClicked"
+        android:layout_below="@+id/L5C1"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ffffff"
+        android:text="@string/tap27"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/L6C4"
+        android:layout_width="65dp"
+        android:layout_height="wrap_content"
+        android:onClick="duoTapClicked"
+        android:layout_alignStart="@+id/L1C4"
+        android:textColor="#ffffff"
+        android:layout_below="@+id/L5C1"
+        android:text="@string/tap28"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/L6C5"
+        android:layout_width="65dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/L5C1"
+        android:layout_toEndOf="@+id/L1C4"
+        android:textColor="#ffffff"
+        android:onClick="duoTapClicked"
+        android:text="@string/tap29"
+        android:visibility="invisible" />
+
+
+
+    <Button
+        android:id="@+id/duoGameStartButton"
+        android:onClick="startDuo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:visibility="visible"
+        android:text="@string/start" />
+
+    <TextView
+        android:id="@+id/pointCounterForDuo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="83dp"
+        android:text=""
+        android:textSize="20dp"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/textViewforwhichactivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:textColor="#ffffff"
+        android:text="" />
+
+
+</RelativeLayout>

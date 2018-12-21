@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">tapp</string>
+    <string name="restart">restart</string>
+    <string name="record">record</string>
+    <string name="solo">solo</string>
+    <string name="start_game">start game</string>
+    <string name="highscore">Highscore</string>
+    <string name="SOLO">SOLO</string>
+    <string name="duo">DUO</string>
+    <string name="tap0">TAP</string>
+    <string name="tap1">TAP</string>
+    <string name="tap2">TAP</string>
+    <string name="tap3">TAP</string>
+    <string name="tap4">TAP</string>
+    <string name="tap5">TAP</string>
+    <string name="tap6">TAP</string>
+    <string name="tap7">TAP</string>
+    <string name="tap8">TAP</string>
+    <string name="tap9">TAP</string>
+    <string name="tap10">TAP</string>
+    <string name="tap11">TAP</string>
+    <string name="tap12">TAP</string>
+    <string name="tap13">TAP</string>
+    <string name="tap14">TAP</string>
+    <string name="tap15">TAP</string>
+    <string name="tap16">TAP</string>
+    <string name="tap17">TAP</string>
+    <string name="tap18">TAP</string>
+    <string name="tap19">TAP</string>
+    <string name="tap20">TAP</string>
+    <string name="tap21">TAP</string>
+    <string name="tap22">TAP</string>
+    <string name="tap23">TAP</string>
+    <string name="tap24">TAP</string>
+    <string name="tap25">TAP</string>
+    <string name="tap26">TAP</string>
+    <string name="tap27">TAP</string>
+    <string name="tap28">TAP</string>
+    <string name="tap29">TAP</string>
+    <string name="start">start</string>
+    <string name="_00_30">00:30</string>
+    <string name="tap_on_solo">TAP</string>
+
+</resources>
